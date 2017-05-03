@@ -1,0 +1,577 @@
+body {
+    font-family: RobotoRegular;
+    font-size: 16px;
+    background: #fffff9;
+}
+.logoleft{
+	
+}
+.logoleft a img{
+	
+}
+.logo_oranzhereya {
+    height: 120px;
+    left: 37px;
+    position: absolute;
+    top: 26px;
+}
+.logo_kolonnij_zal{
+	left: 59px;
+    position: absolute;
+    top: 51px;
+    width: 176px;
+}
+.logo_mihailovskii{
+	height: 62px;
+    left: 53px;
+    position: absolute;
+    top: 51px;
+}
+.logo_tsar{
+	left: 34px;
+    position: absolute;
+    top: 49px;
+    width: 182px;
+}
+.name-site {
+    color: #dda745;
+    font-family: annabelle;
+    font-size: 36px;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: 28px;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+    width: 500px;
+}
+.name-site {
+    font-size: 45px;
+}
+.name-site .year {
+    font-size: 15px;
+    margin: 0 auto;
+    width: 130px;
+}
+.name_site_kolonnij_zal {
+    color: #dda745;
+    font-family: annabelle;
+    font-size: 36px;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: 23px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 500px;
+}
+.name_site_kolonnij_zal .year{
+	border-bottom: 1px solid;
+    font-family: yugothil;
+    font-size: 23px;
+    margin: 0 auto;
+    width: 200px;
+}
+.namesite_v_menu{
+	display: inline;
+    left: 63px;
+    position: absolute;
+    top: 19px;
+}
+.namesite_v_menu p {
+	display: inline;
+    margin-left: 10px;
+}
+.menu{
+	background: #333 none repeat scroll 0 0;
+    margin: 0 -15px;
+    position: absolute;
+    width: 1170px;
+    z-index: 9;
+}
+.menu_fixed{
+	background: #333  none repeat scroll 0 0;
+    color: #f5f5f5;
+    display: table;
+    margin: 0 -15px;
+    position: fixed;
+    top: 0;
+    width: 1170px;
+    z-index: 9;
+    height: 50px;
+}
+.menu_fixed .menutable {
+	display: table;
+    height: 50px;
+    width: 100%;
+}
+.menu_fixed .menutable ul {
+	display: table-row;
+    width: 100%;
+    height:50px;
+}
+
+.menu_fixed .menutable ul li {
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu_fixed .menutable ul li a {
+	color:#f5f5f5;
+}
+
+.menu .menutable {
+	display: table;
+    height: 50px;
+    width: 100%;
+}
+
+.menu .menutable ul {
+	display: table-row;
+    width: 100%;
+    height: 50px;
+}
+
+.menu .menutable ul li {
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu .menutable ul li a {
+	color:#f5f5f5;
+}
+.maine_menu_bottom{
+	display:none;
+	color: #f5f5f5;
+    cursor: pointer;
+    padding: 15px 0 10px 15px;
+    width: 44px;
+}
+.topheaderlen {
+    background: #dbd7d0 none repeat scroll 0 0;
+ }
+ 
+.topheaderlen .yazik {
+    color: #5e1503 !important;
+    font-size: 12px;
+    top:-2px;
+}
+.yazik a {
+    color: #5e1503 !important;
+    font-size: 12px;
+}
+.slider{
+	background: #dbd7d0 none repeat scroll 0 0;
+    padding: 69px 0;
+    position: relative;
+}
+.slider img{
+	left: 50%;
+    margin-left: -450px;
+    position: relative;
+    width: 900px;
+}
+.next_button{
+	background: rgba(0, 0, 0, 0) url("../images/prev_next.png") no-repeat scroll 0 -59px;
+	cursor:pointer;
+    float: right;
+    height: 59px;
+    margin-top: -30px;
+    position: absolute;
+    right: 26px;
+    top: 50%;
+    width: 59px;
+    z-index: 7;
+}
+.prev_button{
+	background: rgba(0, 0, 0, 0) url("../images/prev_next.png") no-repeat scroll 0 0;
+    cursor:pointer;
+    float: right;
+    height: 59px;
+    margin-top: -30px;
+    position: absolute;
+    left: 26px;
+    top: 50%;
+    width: 59px;
+    z-index: 7;
+}
+
+
+
+.owl-pagination {
+    bottom: -34px;
+    margin: 0 auto;
+    position: relative;
+    width: 113px;
+}
+
+.owl-pagination .owl-page{
+	background: #fff none repeat scroll 0 0;
+    border-radius: 8px;
+    float: left;
+    height: 16px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 16px;
+}
+
+.owl-pagination .active{
+	background: #d0a74e none repeat scroll 0 0;
+    border-radius: 8px;
+    height: 16px;
+    width: 16xxpx;
+}
+
+
+.owl-prev{
+	background: rgba(0, 0, 0, 0) url("../images/prev_next.png") no-repeat scroll 0 0;
+    cursor:pointer;
+    float: right;
+    height: 59px;
+    margin-top: -30px;
+    position: absolute;
+    left: 26px;
+    top: 50%;
+    width: 59px;
+    z-index: 7;
+}
+.owl-next{
+	background: rgba(0, 0, 0, 0) url("../images/prev_next.png") no-repeat scroll 0 -59px;
+	cursor:pointer;
+    float: right;
+    height: 59px;
+    margin-top: -30px;
+    position: absolute;
+    right: 26px;
+    top: 50%;
+    width: 59px;
+    z-index: 7;
+}
+
+.fon_oprangereya {
+    background: rgba(0, 0, 0, 0) url("../images/fon_oprangereya.jpg") no-repeat scroll center center;
+    height: 563px;
+    padding: 15px 25px;
+ }
+ .fon_kolonnij_zal {
+    background: rgba(0, 0, 0, 0) url("../images/fon_menu_kolonnij_zal.png") no-repeat scroll center center;
+    height: 563px;
+    padding: 15px 25px;
+ }
+  .fon_menu_mihailovskii {
+    background: rgba(0, 0, 0, 0) url("../images/fon_menu_mih.png") no-repeat scroll center center;
+    height: 563px;
+    padding: 52px 10px 4px;
+ }
+ .fon_menu_tsar {
+    background: rgba(0, 0, 0, 0) url("../images/fon_menu_tsar.png") no-repeat scroll center center;
+    height: 563px;
+    padding: 15px 25px;
+ }
+.fon_oprangereya .content_company, .fon_kolonnij_zal .content_company, .fon_menu_mihailovskii .content_company,.fon_menu_tsar .content_company {
+	color: #f5f5f5;
+}
+.content_company .content_company_left{
+    
+    padding-right: 47px;
+    text-align: center;
+   }
+.content_company .content_company_left h2 {
+	font: 51px annabelle;
+    margin-bottom: 17px;
+    margin-top: 46px;
+}   
+.content_company .content_company_left p {
+	font-size: 14px;
+}
+.content_company .content_company_right{}
+.content_company_right .btn_menu_block{
+	position: relative;
+    top: 136px;
+}
+.btn_menu_block .btn_menu {
+	background: #ab8c4a none repeat scroll 0 0;
+    margin-bottom: 35px;
+    padding: 6px;
+    opacity: 0.84;
+}
+.btn_menu_block .btn_menu:hover{
+	opacity: 1;
+
+}
+.btn_menu_block .btn_menu a {
+	border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    padding: 11px;
+    width: 100%;
+}
+.btn_menu_block .btn_menu a:hover{
+	opacity: 1;
+}
+.btn_menu_block .btn_menu a img {
+	float: right;
+}
+.contentpage{
+	background: #dbd7d0 none repeat scroll 0 0;
+    padding: 28px 60px;
+    text-align: center;
+}
+.contentpage img {
+	box-shadow: 2px 2px 2px #999;
+    margin: 0 auto;
+}
+.contentpage  {
+	color: #4e4e4e;
+}
+.footerpage{
+	background: #d0a74e none repeat scroll 0 0;
+    padding-bottom: 20px;
+}
+
+.form_mail_block{
+	background: rgba(0, 0, 0, 0) url("../images/fon_form.png") no-repeat scroll 0 0;
+    height: 475px;
+    margin: 23px auto;
+    padding: 51px;
+    position: relative;
+    width: 413px;
+}
+.form_mail_block .zagolovok_form {
+	color: #fff;
+    font-size: 19px;
+    letter-spacing: 3px;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+.nameform, .emailform, .textform{
+	border: 1px solid #fff;
+    border-radius: 3px;
+    color: #888;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 310px;
+}
+.nameform{}
+.emailform{}
+.textform{
+	height: 174px;
+}
+.submitform{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius:3px;
+    color: #fff;
+    font-size: 16px;
+    height: 33px;
+    left: 62px;
+    letter-spacing: 2px;
+    position: relative;
+    text-transform: uppercase;
+    width: 182px;
+}
+.contact_footer{
+	background: rgba(0, 0, 0, 0) url("../images/geoposition.png") no-repeat scroll center top;
+    margin-top: 34px;
+    padding-top: 66px;
+    color: #531303;
+    text-align: center;
+}
+
+.contact_footer h3 {
+	color: #531303;
+    font: 24px annabelle;
+}
+.contact_footer p {
+	font-size: 14px;
+}
+
+.yamap{
+	border: 2px solid #fff;
+    margin-top: 20px;
+    padding: 11px;
+}
+
+.dlya_menu{
+	display: none;
+    height: 50px;
+    position: relative;;
+}
+
+.contact_mobile{
+	display:none;
+	background: rgba(0, 0, 0, 0) url("../images/geoposition.png") no-repeat scroll 22px center;
+    color: #531303;
+    margin-top: 4px;
+    padding-left: 66px;
+    text-align: center;
+}
+.contact_mobile h3 {
+	color: #531303;
+    font: 24px annabelle;
+}
+.contact_mobile p {}
+
+
+#footer {
+	
+}
+
+#footer .container{
+	 background:  #600b01 url("../images/footer.png") repeat scroll center top;
+	 height: 183px;
+}
+
+.contact-footer{
+	
+}
+
+.menu_mobi{
+	background: #333 none repeat scroll 0 0;
+    height: 100%;
+    left: -270px;
+    min-height: 100%;
+    position: fixed;
+    width: 270px;
+    z-index: 8;
+}
+.menu_mobi ul {
+	padding-left: 18px;
+    padding-right: 12px;
+}
+.menu_mobi ul li {}
+.menu_mobi ul li a {
+	border-bottom: 1px solid;
+    display: flex;
+    text-transform: uppercase;
+    padding: 7px;
+    color:#f5f5f5;
+}
+.menu_mobi ul li a:hover{
+	background: #444;
+}
+.footerinfo{
+	height: 71px;
+    position: relative;
+}
+.footerinfo .contact-footer{
+	top: 0 !important;
+}
+.footerinfo .menufooter{
+	position: relative;
+    top: 10px;
+}
+.menufooter ul {
+	 padding: 0;
+}
+.menufooter ul li {
+	display: inline;
+    margin-right: 29px
+}
+.menufooter ul li a {
+	color: #f5f5f5;
+}
+.menufooter ul li a.active_menu,.menufooter ul li a:hover,.menu .menutable ul li a:hover,.menu_fixed .menutable ul li a:hover{
+	border-bottom: 1px solid #d0a74e;
+}
+.coop{
+	color: #ccc;
+    font-size: 13px;
+    margin-top: 26px;
+    text-align: center;
+}
+
+.contact_blok_info {
+        background: #640b00 url("../images/footer_contact.png") no-repeat scroll center bottom;
+    display: none;
+    padding: 8px 10px;
+    position: absolute;
+    right: 0;
+    top: -145px;
+    width: 1170px;
+    z-index: 2;
+}
+.contact_blok_info ul {
+    border: 2px solid #dda745;
+    border-radius: 12px;
+    list-style: outside none none;
+    margin-top: 29px;
+    padding: 14px 0;
+    text-align: center;
+    width: 100%;
+}
+.contact_blok_info ul li {
+    border-left: 1px solid #dda745;
+    color: #dda745;
+    display: table-cell;
+    font-family: ubuntu light;
+    font-size: 16px;
+    padding: 5px 0;
+    text-align: center;
+    width: 292px;
+}
+.contact_blok_info ul li:first-child {
+    border-left: none;
+}
+.contact_blok_info .strelka_bif {
+    right: 151px;
+}
+#footer {
+    bottom: 0;
+    height: 149px;
+    position: relative;
+    width: 1170px;
+}
+.btn_close_map{
+	display:none;
+	width: 200px;
+    right: 0;
+    position: relative;
+    border: 2px solid;
+    color: #f5f5f5;
+    padding: 5px;
+    text-align: center;
+    margin: 22px auto 0;
+    cursor:pointer;
+    border-radius:5px;
+}
+.mapyandex{
+	
+}
+#keitring{}
+#keitring h2 {
+	font: 51px annabelle;
+}
+.seti{
+	height: 42px;
+    left: auto;
+    position: absolute;
+    right: 65px;
+    top: 71px;
+}
+.seti a{
+	display: inline-block;
+    height: 30px;
+    opacity: 0.49;
+    width: 30px;
+}
+.seti a:hover{
+	opacity:1;
+}
+.seti .fb{
+	background: rgba(0, 0, 0, 0) url("../images/seti.png") no-repeat scroll -36px 0;
+    
+}
+.seti .tt{
+	background: rgba(0, 0, 0, 0) url("../images/seti.png") no-repeat scroll -72px 0;
+}
+.seti .vk{
+	background: rgba(0, 0, 0, 0) url("../images/seti.png") no-repeat scroll 0 0;
+}
+.seti .ig{
+	background: rgba(0, 0, 0, 0) url("../images/seti.png") no-repeat scroll -108px 0;
+}

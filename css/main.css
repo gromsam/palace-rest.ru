@@ -1,0 +1,282 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+html,body{
+	min-height: 100%;
+	height: 100%;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	background: #111;
+	font-family: ubuntu light,"Benguiat Rus",calibri "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+.container {
+    <!--background: #600b01 url("../images/gros_fon_index.png") no-repeat scroll center center;-->
+    background: #600b01;
+    height: 100%;
+}
+.top-head{
+}
+
+.top-head{
+	background: url("../images/bg_header.png") repeat scroll center center;
+    height: 200px;
+}
+#footer .container {
+	
+}
+.container {
+}
+.content {
+   margin-top: -250px;
+    max-height: 515px;
+    min-height: 515px;
+    position: absolute;
+    top: 50%;
+    width: 1170px;
+}
+.img_index{
+	background: rgba(0, 0, 0, 0) url("../images/img_index_border.png") no-repeat scroll center bottom;
+	padding-bottom: 39px;
+    padding-top: 140px;
+}
+.img_index a {
+	
+}
+.img_index a .img_index_menu{
+    border: 2px solid #dfa947;
+    padding: 3px;
+    width: 210px;
+    margin: 0 auto;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px #999;
+}
+.img_index a .img_index_menu img {}
+.img_index .city_restoran{
+	background: url("../images/tochka.png") no-repeat scroll left center, rgba(0, 0, 0, 0) url("../images/tochka.png") no-repeat scroll right center;
+    color: #ccc;
+    display: block;
+    font-family: "Ubuntu Light";
+    font-size: 14px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 101px;
+}
+.img_index .name_restoran{
+	color: #fff;
+    font-family: 'Ubuntu Light',MS Sans Serif,calibri;
+    font-size: 15px;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+    margin-top: 18px;
+    text-align: center;
+    text-transform: uppercase;
+   }
+.img_index .name_restoran:hover, .img_index .city_restoran:hover{
+	text-decoration: underline;
+}
+.img_index img {
+    border: 1px solid #dfa947;
+    border-radius: 3px;
+    opacity: 0.9;
+    margin: 0 auto;
+    width: 226px;
+    padding: 2px;
+}
+.img_index img:hover {
+	opacity: 1;
+}
+.topheaderlen .yazik {
+    color: #eee;
+    padding: 7px;
+    position: absolute;
+    right: 85px;
+    text-align: center;
+    top: -5px;
+}
+#topheader #logo{
+    color: #eee;
+    height: 125px;
+    padding: 7px;
+    position: absolute;
+    right: 62px;
+    text-align: center;
+    top: 32px;
+    width: 130px;
+}
+#topheader #logo img {
+	height: 95px;
+    width: 95px;
+}
+.topheaderlen{
+	background: #d0a74e none repeat scroll 0 0;
+    height: 25px;
+    margin-top: 175px;
+    position: relative;
+}
+.yazik a {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Ubuntu Light";
+}
+.yazik a:hover{
+	text-decoration: underline;
+}
+#footer .container{
+	background: url("../images/logo_heineken.png") no-repeat scroll center center, rgba(0, 0, 0, 0) url("../images/footer.png") repeat scroll center top;
+	
+    height: 149px;
+}
+
+#footer {
+    bottom: 0;
+    height: 149px;
+    position: absolute;
+    width: 1170px;
+}
+#footer .container .contact-footer{
+	background: rgba(0, 0, 0, 0) url("../images/icon_telefon.png") no-repeat scroll left center;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 18px;
+    height: 30px;
+    padding-left: 28px;
+    padding-top: 3px;
+    position: absolute;
+    right: 73px;
+    top: 25px;
+}
+.name-site{
+	color: #dda745;
+    font-family: annabelle;
+    font-size: 36px;
+    margin-top: 23px;
+    text-align: center;
+}
+.name-site .year{
+	border-bottom: 1px solid;
+    font-family: ubuntu light;
+    font-size: 19px;
+    margin: 0 auto;
+    width: 200px;
+}
+.contact_blok_info{
+    background: #640b00 url("../images/footer_contact.png") no-repeat scroll center bottom;
+    display: none;
+    
+    padding: 8px 10px;
+    position: absolute;
+    right: 0;
+    top: -145px;
+    width: 1170px;
+    z-index: 2;
+}
+
+.close_contact_blok_info{
+	background: rgba(0, 0, 0, 0) url("../images/close2.png") no-repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    height: 17px;
+    position: absolute;
+    right: 22px;
+    text-align: right;
+    width: 17px;
+}
+
+.contact_blok_info .strelka_bif{
+	background: rgba(0, 0, 0, 0) url("../images/fon_contact_footer.png") no-repeat scroll center bottom;
+    bottom: 7px;
+    height: 17px;
+    position: absolute;
+    right: 118px;
+    width: 20px;
+}
+.contact_blok_info ul {
+	border: 2px solid #dda745;
+    border-radius: 12px;
+    list-style: outside none none;
+    margin-top: 29px;
+    padding: 14px 0;
+    text-align: center;
+    width: 100%;
+}
+.contact_blok_info ul li {
+	border-left: 1px solid #dda745;
+    color: #dda745;
+    display: table-cell;
+    font-family: ubuntu light;
+    font-size: 16px;
+    padding: 5px 0;
+    text-align: center;
+    width: 292px;
+}
+.contact_blok_info ul li:first-child {
+	border-left: none;
+}
+.contact_blok_info ul li a {
+	color: #eee;
+    text-decoration: underline;
+    font-size: 16px;
+}
+.contact_blok_info ul li a:hover{
+    text-decoration: none;
+}
+.slider_index_img{
+	display: none;
+}
+.slider_index_img img{} 
+.seti{
+	height: 42px;
+    left: auto;
+    position: absolute;
+    right: 67px;
+    top: 83px;
+}
+.seti a{
+	display: inline-block;
+    height: 30px;
+    opacity: 0.49;
+    width: 30px;
+}
+.seti a:hover{
+	opacity:1;
+}
+.seti .fb{
+	background: rgba(0, 0, 0, 0) url("../images/seti.png") no-repeat scroll -36px 0;
+    
+}
+.seti .tt{
+	background: rgba(0, 0, 0, 0) url("../images/seti.png") no-repeat scroll -72px 0;
+}
+.seti .vk{
+	background: rgba(0, 0, 0, 0) url("../images/seti.png") no-repeat scroll 0 0;
+}
+.seti .ig{
+	background: rgba(0, 0, 0, 0) url("../images/seti.png") no-repeat scroll -108px 0;
+}

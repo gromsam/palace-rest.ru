@@ -1,0 +1,347 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.menu_fixed, .menu {
+	    width: 970px;
+	}
+	#contact .col-xs-2{
+		display:none;
+	}
+	.contact_mobile{
+		display:block;
+	}
+	#contact .col-xs-5{
+		width: 50% !important;
+	}
+	#information{
+		 background: #491a09 url("../images/fon_mobil.png") no-repeat scroll center top;
+		 height: auto;
+	}
+	.content {
+	    width: 970px;
+	}
+	#footer {
+	    width: 970px;
+	}
+	.contact_blok_info {
+	    width: 970px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	.img_index {
+    	width: 50%;
+	}
+	#topheader #logo {
+	    right: 20px;
+	}
+	.content {
+	    background: #DBD7D0;
+	}
+	
+	.img_index {
+	    padding-bottom: 68px;
+	    padding-top: 69px;
+	}
+	
+	.img_index .name_restoran,.img_index .city_restoran {
+	    color: #531303;
+	}
+	.img_index .city_restoran {
+    	background: url("../images/tochka2.png") no-repeat scroll left center, 
+    	rgba(0, 0, 0, 0) url("../images/tochka2.png") no-repeat scroll right center;
+   }
+   .content {
+	    margin-top: 0;
+	    min-height: 515px;
+	    max-height: 1400px;
+	    position: unset;
+	    top: 50%;
+	    width: 750px;
+	}
+   
+   #footer {
+	    bottom: 0;
+	    height: 149px;
+	    position: relative;
+	    width: 750px;
+	}	
+	.contact_blok_info {
+	    width: 750px;
+        top: -304px;
+	}
+	.contact_blok_info ul li {
+	    width: 95%;
+	    display: inherit;
+	    border-left: none;
+	    border-top: 1px solid;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+	.contact_blok_info ul li:first-child{
+		border-top: none;
+	}
+}
+@media only screen and (max-width : 784px) {
+	.maine_menu_bottom{
+		display: block;
+	}
+	
+	.menu .menutable ul {
+	    display: none;
+	    padding: 0 0 0 14px;
+	}
+	
+	.menu .menutable ul li {
+	    display: block;
+	    margin-bottom: 12px;
+	    text-align: left;
+	}
+	
+	.menu_fixed .menutable ul {
+	    display: none;
+	    padding: 0 0 0 14px;
+	}
+	.menu_fixed  .menutable ul li {
+	    display: block;
+	    margin-bottom: 12px;
+	    text-align: left;
+	}
+	
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.menu_fixed, .menu {
+	    width: 100%;
+	}
+	
+	
+	.owl-next, .owl-prev {
+	    bottom: -74px;
+	    top: auto;
+	}
+	
+	.owl-buttons{
+		display:none;
+	}
+
+	 #footer {
+	    width: auto;
+	}	
+	.content {
+	    margin-top: 0;
+	    max-height: 2400px;
+	    min-height: 515px;
+	    padding-right: 0;
+	    position: relative;
+	    top: 0;
+	    width: auto;
+	}
+	.contact_blok_info {
+	    width: 100%;
+	}
+}
+
+@media only screen and (max-width : 700px) {
+	
+	#logo{
+		display: none;
+	}
+	
+	.name-site {
+	    font-size: 28px;
+	    margin-left: 0;
+	    width: auto;
+	    right: 0;
+	}
+	.owl-buttons{
+		display:none;
+	}
+	
+	
+	.topheaderlen .yazik {
+	    right: 17px;
+	}
+	#footer .container {
+	    background: url("../images/logo_heineken.png") no-repeat scroll left center,#600b01  url("../images/footer.png") repeat scroll center top;
+	}
+	#footer .container .contact-footer {
+	    top: 27px;
+	}
+	.seti {
+	    left: auto;
+	    top: 84px;
+	    right: 67px;
+	}
+}
+
+
+
+@media only screen and (max-width : 538px) {
+	.name-site .year {
+	       font-size: 13px;
+	    margin: 13px auto 0;
+	    width: 81px;
+	    letter-spacing: -1px;
+	}
+	.content_company .content_company_left h2 {
+	    font: 42px annabelle;
+	    margin-bottom: 68px;
+	    margin-top: 16px;
+	}
+	.content_company .content_company_left {
+	    padding-right: 0;
+	    padding-left: 0;
+	}
+	
+	.img_index {
+	    width: 100%;
+	}
+	.img_index {
+	    padding-bottom: 42px;
+	}
+	background: rgba(0, 0, 0, 0) url("../images/icon_telefon.png") no-repeat scroll left center;;
+	    top: 60px;
+	}
+		
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.form_mail_block {
+	    background: none; 
+	    width: auto; 
+	}
+	
+	.nameform, .emailform, .textform {
+	    width: 100%;
+	}
+	.submitform {
+	    width: auto;
+	}
+	.owl-pagination{
+		display:none;
+	}
+	.slider {
+	    background: #dbd7d0 none repeat scroll 0 0;
+	    padding: 56px 0 0px;
+	    position: relative;
+	}
+	#footer .container .contact-footer {
+	    right: 8px;
+	}
+}
+
+@media only screen and (max-width : 414px) {
+	.seti {
+	    right: 16px;
+	}
+}
+
+
+
+@media only screen and (max-width : 368px) {
+	#footer .container .contact-footer {
+	    right: 18px;
+	}
+	.contact_blok_info .strelka_bif {
+	    right: 56px;
+	}
+}
+@media only screen and (max-width : 356px) {
+	.name-site {
+	    font-size: 23px;
+	}
+	.seti a {
+	    display: inline-block;
+	    height: 20px;
+	    opacity: 0.49;
+	    width: 20px;
+	}
+	.seti .fb{
+		background: rgba(0, 0, 0, 0) url("../images/seti_mini.png") no-repeat scroll -24px 0;
+	    
+	}
+	.seti .tt{
+		background: rgba(0, 0, 0, 0) url("../images/seti_mini.png") no-repeat scroll -48px 0;
+	}
+	.seti .vk{
+		background: rgba(0, 0, 0, 0) url("../images/seti_mini.png") no-repeat scroll 0 0;
+	}
+	.seti .ig{
+		background: rgba(0, 0, 0, 0) url("../images/seti_mini.png") no-repeat scroll -73px 0;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+@media only screen and (max-width : 311px) {
+		.contact_blok_info {
+		    top: -325px;
+		}
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
+@media only screen and (min-width : 1215px) {
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-height : 711px)  {
+	#footer {
+	    position: relative;
+	}
+	.content {
+	    margin-top: 0;
+	    max-height: 511px;
+	    min-height: 512px;
+	    position: relative;
+	    top: 0;
+	    width: 1170px;
+	}
+}
+
+
+
+
+
+
+
+
+
+

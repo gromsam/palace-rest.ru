@@ -1,0 +1,602 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.menu_fixed, .menu {
+	    width: 970px;
+	}
+	#contact .col-xs-2{
+		display:none;
+	}
+	.contact_mobile{
+		display:block;
+	}
+	#contact .col-xs-5{
+		width: 50% !important;
+	}
+	#information{
+		 background: #491a09 url("../images/fon_mobil.png") no-repeat scroll center -1px;
+		 height: auto;
+	}
+	.name_site_kolonnij_zal {
+	    left: 550px;
+	}
+	.logo_tsar {
+	    top: 44px;
+	    width: 187px;
+	}
+	.slider img {
+	    left: 0;
+	    margin-left: 0;
+	    position: relative;
+	    width: 100%;
+	}
+	.logo_kolonnij_zal{
+        top: 60px;
+		width: 226px;
+	}
+	#footer {
+	    width: 970px;
+	}
+	.contact_mobile h3 {
+	    padding-top: 44px;
+	}
+	.contact_blok_info {
+	    top: -167px;
+	    width: 970px;
+	}
+	#footer .container .contact-footer {
+	    right: 24px;
+	}
+	.seti {
+	    right: 15px;
+	}
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	#topheader #logo {
+	    right: 5px;
+	}
+	.name-site {
+	    font-size: 28px;
+	    margin-left: 0;
+	    width: auto;
+	    left: 36px;
+	    top: 13px;
+	}
+	
+	.menu_fixed, .menu {
+	    width: 750px;
+	}
+	
+	.slider {
+	    padding: 50px 0;
+	}
+	
+	.slider img {
+	    height: auto;
+	    left: 0;
+	    margin: 0;
+	    width: 100%;
+	}
+		
+	.yamap ymaps:first{
+		width:100%;
+	}
+	
+	.btn_menu a img {
+		display: none;
+	}
+	#contact .col-xs-5{
+		width: 100% !important;
+	}
+	.yamap > ymaps:first-child{
+		width: 100% !important;
+		height: 300px !important;
+	}
+	
+	.menufooter ul li {
+	   	display: block; 
+	    margin-right: 29px;
+	}
+	
+	#footer .container {
+	    background: #600b01 none repeat scroll 0 0;
+	    height: 258px;
+	}
+	.coop {
+	    margin-top: 96px;
+	}
+	.name_site_kolonnij_zal {
+	    left: 0;
+	    right: auto;
+	    margin-left: 0;
+	}
+	.name_site {
+	    left: 0;
+    	right: 0;
+    	margin-left:0;
+	}
+	.logoleft{
+		display:none !important;
+	}
+	
+	#footer {
+	    width: 750px;
+        height: 145px;
+	}
+	#footer .container {
+	    background: #640b00 url(../images/footer.png) no-repeat scroll center top;
+	    height: 145px;
+	}
+	.btn_close_map{
+		display:block;
+	}
+	.mapyandex {
+	    background: rgba(0, 0, 0, 0) url("../images/line_bg.jpg") repeat-x scroll 0 0;
+	}
+	
+	.contact_blok_info {
+	    width: 100%;
+        top: -304px;
+	}
+	.contact_blok_info ul li {
+	    width: 95%;
+	    display: inherit;
+	    border-left: none;
+	    border-top: 1px solid;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+	.contact_blok_info ul li:first-child{
+		border-top: none;
+	}
+	.coop {
+	    margin-top: 0;
+	}
+}
+
+@media only screen and (max-width : 784px) {
+	.maine_menu_bottom{
+		display: block;
+	}
+	
+	.menu .menutable ul {
+	    display: none;
+	    padding: 0 0 0 14px;
+	}
+	
+	.menu .menutable ul li {
+	    display: block;
+	    margin-bottom: 12px;
+	    text-align: left;
+	}
+	
+	.menu_fixed .menutable ul {
+	    display: none;
+	    padding: 0 0 0 14px;
+	}
+	.menu_fixed  .menutable ul li {
+	    display: block;
+	    margin-bottom: 12px;
+	    text-align: left;
+	}
+	
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	#topheader #logo img {
+	    height: 100px;
+	    width: 100px;
+	}
+	.menu_fixed, .menu {
+	    width: 100%;
+	}
+	
+	
+	.owl-next, .owl-prev {
+	    bottom: -74px;
+	    top: auto;
+	}
+	
+	.owl-buttons{
+		display:none;
+	}
+
+	#footer {
+	    width: auto;
+	}
+	
+}
+
+@media only screen and (max-width : 700px) {
+	.owl-buttons{
+		display:none;
+	}
+	.1logoleft {
+	    display: none;
+	}
+	.name_site_kolonnij_zal {
+	    width: 100%;
+	    text-align:left;
+	}
+	.coop {
+	    margin-top: 0;
+	    width: 179px;
+	    right: 28px;
+	    position: absolute;
+	}
+	#footer .container .contact-footer {
+	    right: 43px;
+   }
+   .contact_blok_info .strelka_bif {
+	    right: 97px;
+	}
+	.seti {
+	   right: 42px;
+    	top: 37px;
+	}
+	.seti a {
+	    height: 20px;
+	    width: 20px;
+	}
+	.seti .fb{
+		background: rgba(0, 0, 0, 0) url("../images/seti_mini.png") no-repeat scroll -24px 0;
+	    
+	}
+	.seti .tt{
+		background: rgba(0, 0, 0, 0) url("../images/seti_mini.png") no-repeat scroll -48px 0;
+	}
+	.seti .vk{
+		background: rgba(0, 0, 0, 0) url("../images/seti_mini.png") no-repeat scroll 0 0;
+	}
+	.seti .ig{
+		background: rgba(0, 0, 0, 0) url("../images/seti_mini.png") no-repeat scroll -73px 0;
+	}
+}
+
+
+@media only screen and (max-width : 607px) {
+	
+	#information .col-xs-8, #information .col-xs-4 {
+		width: 100% !important;
+	}
+	
+	.content_company_right .btn_menu_block {
+	    position: relative;
+	    top: 1px;
+	}
+	.topheaderlen .yazik {
+	    color: #5e1503 !important;
+	    font-size: 14px;
+	    top: -4px;
+	    right: 2px;
+	}
+	.logoleft a img {
+		width: 151px;
+	    position: absolute;
+	    left: 9px;
+	    top: 35px;
+	}
+	
+	
+}
+
+
+@media only screen and (max-width : 550px) {
+	#keitring {
+	    padding: 30px;
+	}
+}
+
+
+
+
+
+
+@media only screen and (max-width : 538px) {
+	.name-site .year {
+	       font-size: 13px;
+	    margin: 13px auto 0;
+	    width: 81px;
+	}
+	.content_company .content_company_left h2 {
+	    font: 42px annabelle;
+	    margin-bottom: 68px;
+	    margin-top: 16px;
+	}
+	.content_company .content_company_left {
+	    padding-right: 0;
+	    padding-left: 0;
+	}
+}
+
+
+@media only screen and (max-width : 538px) {
+	.contact_blok_info {
+	    top: -304px;
+	 }
+	 .contact_blok_info .strelka_bif {
+	    right: 103px;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.name-site {
+	    font-size: 23px;
+	    width: auto;
+	    left: 16px;
+	    top: 27px;
+	}	
+	.form_mail_block {
+	    background: none; 
+	    width: auto; 
+	}
+	
+	.nameform, .emailform, .textform {
+	    width: 100%;
+	}
+	.submitform {
+	    width: auto;
+	}
+	.owl-pagination{
+		display:none;
+	}
+	.slider {
+	    background: #dbd7d0 none repeat scroll 0 0;
+	    padding: 56px 0 0px;
+	    position: relative;
+	}
+	#footer .container .contact-footer {
+	    right: 8px;
+	}
+	.contact_blok_info .strelka_bif {
+	    right: 55px;
+	}
+	.coop {
+	    right: 22px;
+	    text-align: right;
+	}
+	
+	#logo img {
+		width: 100px;
+	    top: 21px;
+	    position: absolute;
+	    right: 0;
+	    height: 96px;
+	}
+	.form_mail_block {
+	    height: 369px;
+	    margin: 16px auto;
+	    padding: 0 51px;
+	    position: relative;
+	    width: auto;
+	}
+	.submitform {
+	    width: 200px;
+	    position: relative;
+	    left: 50%;
+	    margin-left: -100px;
+	    border: 2px solid;
+	}
+	.seti {
+	   right: 8px;
+	}
+}
+
+@media only screen and (max-width : 410px) {
+	.contact_blok_info {
+	    top: -304px;
+	}
+}
+
+
+@media only screen and (max-width : 400px) {
+	.name_site_kolonnij_zal {
+	    width: 100%;
+	    font-size: 31px;
+	}
+	
+	.name_site_kolonnij_zal .year {
+	    border-bottom: 1px solid;
+	    font-family: yugothil;
+	    font-size: 17px;
+	    margin: 26px auto;
+	    width: 159px;
+
+	}
+	
+	.name_site {
+	    width: 100%;
+	    font-size: 31px;
+	}
+	
+	.name_site .year {
+	    border-bottom: 1px solid;
+	    font-family: yugothil;
+	    font-size: 17px;
+	    margin: 26px auto;
+	    width: 159px;
+
+	}
+	.coop {
+	    font-size: 10px;
+	}
+}
+@media only screen and (max-width : 388px) {
+	.contact_blok_info {
+	    top: -557px;
+	}
+	.menufooter ul li a {
+	    font-size: 13px;
+	}
+}
+
+@media only screen and (max-width : 388px) {
+	.contact_blok_info {
+	    top: -304px;
+	}
+}
+@media only screen and (max-width : 376px) {
+	.contact_blok_info {
+	    top: -304px;
+	}
+	.content_company .content_company_left h2 {
+		font-size:30px;
+	}
+	.namesite_v_menu {
+	    font-size: 13px;
+	    top: 21px;
+	    left: 51px;
+	}
+}
+
+@media only screen and (max-width : 360px) {
+	#logo img {
+	    display: none;
+	}
+	.name-site {
+	    font-size: 23px;
+	    width: auto;
+	    left: auto;
+	    top: 54px;
+	    width: 100%;
+	    margin: 0;
+	    position: relative;
+	}
+	#footer {
+	    height: auto;
+	}
+	#footer .container .contact-footer {
+	    right: 0px;
+	    display: block;
+	    font-size: 12px;
+	    padding-top: 7px;
+	}
+	#footer .container{
+		height:auto;	
+	}
+	.footerinfo {
+	    height: auto;
+	}
+	.coop {
+	    font-size: 10px;
+	    position: relative;
+	    left: 0;
+	    text-align: left;
+	    padding-top: 21px;
+	}
+	.contact_blok_info .strelka_bif {
+	    right: 37px;
+	}
+	.seti {
+       right: 31px;
+    	top: 50px;
+	}
+	.seti a {
+	    display: block;
+	    margin-bottom: 5px;
+	}
+}
+
+@media only screen and (max-width : 344px) {
+	
+}
+
+@media only screen and (max-width : 341px) {
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.form_mail_block {
+	    padding: 0 10px;
+	   }
+	   
+	  .contact_mobile {
+	    background: none;
+	    padding-left: 0;
+	}
+}
+
+
+@media only screen and (max-width : 281px) {
+	.menufooter ul {
+	    padding: 53px 0 0 0;
+	}
+	#footer .container .contact-footer {
+	    left: 0;
+	}
+	.contact_blok_info .strelka_bif {
+	    right: 0;
+	    left: 70px;
+	}	
+}
+
+
+@media only screen and (max-width : 281px) {
+	.name-site {
+	    font-size: 20px;
+	}
+	.content_company .content_company_left h2 {
+		font-size:25px;
+	}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
+@media only screen and (min-width : 1215px) {
+
+}
